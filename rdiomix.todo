@@ -1,0 +1,18 @@
+TODO:
+
+
+
+
+Resources:
+  ☐ http://briantford.com/blog/huuuuuge-angular-apps.html
+  ☐ http://www.thinkster.io/pick/51d287681e4b9c9098000013/a-better-way-to-learn-angularjs
+  ☐ http://egghead.io/
+  ☐ https://github.com/gruntjs/grunt-contrib-coffee
+  ☐ https://github.com/gruntjs/grunt-contrib-sass
+  ☐ http://spin.atomicobject.com/2013/05/13/javascript-front-end-grunt/
+  ☐ http://gruntjs.com/
+  ☐ http://angularjs.org/
+
+
+Tips:
+ ☐ alias grunt=’nocorrect grunt’ add this alias to ~/.zshrc file to not get: correct 'grunt' to 'grn' [nyae]? n
