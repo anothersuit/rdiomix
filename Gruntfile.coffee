@@ -5,7 +5,7 @@ module.exports = (grunt) ->
                 options:
                     bare: true
                 files: [
-                    src: ['./app/**/*.coffee']
+                    src: ['./app/scripts/**/*.coffee']
                     dest: './public/app.js'
                 ]
         sass:
@@ -15,7 +15,7 @@ module.exports = (grunt) ->
                     noCache: true
                     banner: '/*-- rdiomix 0.1.0 made by: Matt Ricks - anothersuit.com --*/'
                 files: {
-                    './public/app.css' : './public/styles/app.scss'
+                    './public/app.css' : './app/styles/app.scss'
                 }
 
     grunt.loadNpmTasks 'grunt-contrib-coffee'

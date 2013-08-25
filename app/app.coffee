@@ -1,1 +1,0 @@
-rdiomix = angular.module('rdiomix', [])
