@@ -3,7 +3,18 @@ TODO:
 
 
 
-Resources:
+
+Emberjs:
+  ☐ http://locachejs.org/
+  ☐ https://developer.echonest.com/
+  ☐ http://developer.rdio.com/docs
+
+
+
+Angular Resources:
+ ☐ http://expressjs.com/
+ ☐ http://angular-ui.github.io/
+  ☐ http://code.angularjs.org/1.0.7/docs/guide
   ☐ http://briantford.com/blog/huuuuuge-angular-apps.html
   ☐ http://www.thinkster.io/pick/51d287681e4b9c9098000013/a-better-way-to-learn-angularjs
   ☐ http://egghead.io/
@@ -16,6 +27,9 @@ Resources:
   ☐ http://deansofer.com/posts/view/14/AngularJs-Tips-and-Tricks-UPDATED
   ☐ http://www.bennadel.com/blog/2420-Mapping-AngularJS-Routes-Onto-URL-Parameters-And-Client-Side-Events.htm
   ☐ https://github.com/simpulton/angular-website-routes
+  ☐ http://www.bennadel.com/blog/2450-Using-ngController-With-ngRepeat-In-AngularJS.htm
+  ☐ http://gistflow.com/posts/843-creating-recursive-templates-in-angular-js
+  ☐ http://coenraets.org/blog/2012/02/sample-application-with-angular-js/
 
 
 Tips:

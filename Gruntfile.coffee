@@ -5,7 +5,13 @@ module.exports = (grunt) ->
                 options:
                     bare: true
                 files: [
-                    src: ['./app/scripts/**/*.coffee']
+                    src: [
+                        './app/scripts/application.coffee'
+                        './app/scripts/models/*.coffee'
+                        './app/scripts/controllers/*.coffee'
+                        './app/scripts/views/*.coffee'
+                        './app/scripts/router.coffee'
+                    ]
                     dest: './public/app.js'
                 ]
         sass:

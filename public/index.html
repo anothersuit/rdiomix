@@ -1,21 +1,38 @@
 <!doctype html>
-<html lang='en' xmlns:ng='http://angularjs.org' id='ng-app' ng-app='rdiomix'>
+<html>
 	<head>
 		<meta charset='utf-8'>
 		<title>rdiomix</title>
 
-		<link rel='stylesheet' type='text/css' href='app.css'>
-
-		<!--[if lte IE 8]>
-			<script src='//cdnjs.cloudflare.com/ajax/libs/json3/3.2.4/json3.js'></script>
-			<script src='//cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-sham.js'></script>
-		<![endif]-->
+		<link rel='stylesheet' type='text/css' href='/app.css'>
+	
 	</head>
 	<body>
+
+		<script type='text/x-handlebars' data-template-name='application'>
+			<header>
+				<nav>
+					terms		
+				</nav>
+			</header>
+
+			{{render "mix"}}
+
+			<footer>
+				footer
+			</footer>
+		</script>
+
+		<script type='text/x-handlebars' data-template-name='mix'>
+
+			mix
+
+		</script>
 	
-		<div ng-view></div>
-		
-		<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js'></script>
-		<script src='app.js'></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src='//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js'></script>
+		<script src='http://builds.emberjs.com.s3.amazonaws.com/ember-1.0.0-rc.7.js'></script>
+		<script src='/vendors/locache.js'></script>
+		<script src='/app.js'></script>
 	</body>
 </html>
